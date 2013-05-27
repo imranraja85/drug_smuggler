@@ -1,6 +1,6 @@
 ## Description
 
-This is my solution for the AO Knapsack challenege using clojure
+This is my solution for the AO Knapsack challenge
 
 ## Installation
 
