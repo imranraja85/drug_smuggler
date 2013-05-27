@@ -38,3 +38,10 @@
     (is (= (:value (last selected-dolls)) 35))
   )
 )
+
+(deftest package-drugs-computation-small-maximum-weight
+  (let[[max-weight] (read-file "test/drugs/test_data_2.txt")
+       [value selected-dolls] (package-drugs max-weight dolls)]
+    (is (= (count selected-dolls) 0))
+  )
+)

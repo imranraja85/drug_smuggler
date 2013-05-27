@@ -1,0 +1,8 @@
+5
+luke        9   150
+anthony    13    35
+candice   153   200
+puppy      15    60
+thomas     68    45
+randal     27    60
+april      39    40
