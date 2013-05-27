@@ -1,6 +1,6 @@
 ## Description
 
-This is my solution for the AO drug smuggling challenge
+This is my solution for the AO drug smuggling challenge. Essentially it is a clojure solution for the knapsack problem.
 
 ## Installation
 
