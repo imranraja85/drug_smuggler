@@ -1,6 +1,6 @@
 ## Description
 
-This is my solution for the AO Knapsack challenge
+This is my solution for the AO drug smuggling challenge
 
 ## Installation
 
