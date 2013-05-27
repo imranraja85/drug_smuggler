@@ -1,35 +1,30 @@
-# drugs
-
-FIXME: description
-
 ## Installation
 
-Download from http://example.com/FIXME.
+```
+> git clone git@github.com:imranraja85/ ?????
+> cd drugs/
+> lein uberjar
+> java -jar target/drugs-0.1.0-SNAPSHOT-standalone.jar data.txt
+```
 
 ## Usage
 
-FIXME: explanation
+After compiling the drug smuggling app, execute the jar file and pass in the data file as the argument
+```
+> java -jar target/drugs-0.1.0-SNAPSHOT-standalone.jar data.txt
+```
 
-    $ java -jar drugs-0.1.0-standalone.jar [args]
+## Data File Setup
+The first line of the input file contains the maximum weight. The remaining lines each contain a space delimited record in the following order: name weight value
 
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+Sample file:
+```
+> 100
+> luke        9   150
+> anthony    13    35
+> candice   153   200
+```
 
 ## License
-
-Copyright © 2013 FIXME
 
 Distributed under the Eclipse Public License, the same as Clojure.
