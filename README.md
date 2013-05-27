@@ -1,15 +1,18 @@
+## Description
+
+This is my solution for the AO Knapsack challenege using clojure
+
 ## Installation
 
 ```
-> git clone git@github.com:imranraja85/ ?????
-> cd drugs/
+> git clone https://github.com/imranraja85/drug_smuggler.git
+> cd drug_smuggler/
 > lein uberjar
-> java -jar target/drugs-0.1.0-SNAPSHOT-standalone.jar data.txt
 ```
 
 ## Usage
 
-After compiling the drug smuggling app, execute the jar file and pass in the data file as the argument
+After compiling drug_smuggler, execute the jar file and pass in the data file as an argument
 ```
 > java -jar target/drugs-0.1.0-SNAPSHOT-standalone.jar data.txt
 ```
@@ -19,10 +22,16 @@ The first line of the input file contains the maximum weight. The remaining line
 
 Sample file:
 ```
-> 100
-> luke        9   150
-> anthony    13    35
-> candice   153   200
+100
+luke        9   150
+anthony    13    35
+candice   153   200
+```
+
+## Testing
+To run the test suite:
+```
+lein test
 ```
 
 ## License
